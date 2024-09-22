@@ -37,8 +37,6 @@ document.addEventListener('DOMContentLoaded', function() {
         interval: 500
     });
 
-alert('Olá')
-
     ScrollReveal().reveal('#skill-item1, #skill-item2, #skill-item3, #skill-item4, #skill-item5', {
         duration: 1000, 
         origin: 'left',
