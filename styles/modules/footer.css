@@ -1,0 +1,27 @@
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.footer-title {
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+    .footer-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+    }
+    
+    .footer-title {
+        font-size: 0.87rem;
+        font-weight: 700;
+        text-align: center;
+    } 
+}

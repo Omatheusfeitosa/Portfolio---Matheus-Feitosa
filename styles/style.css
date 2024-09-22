@@ -1,0 +1,11 @@
+@import url('base.css');
+@import url('reset.css');
+@import url('modules/nav-bar.css');
+@import url('modules/principal-section.css');
+@import url('modules/about-me.css');
+@import url('modules/skill-section.css');
+@import url('modules/hobbie-section.css');
+@import url('modules/formacao-section.css');
+@import url('modules/experiencia-section.css');
+@import url('modules/contato-section.css');
+@import url('modules/footer.css')

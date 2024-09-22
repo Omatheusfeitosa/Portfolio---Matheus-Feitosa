@@ -1,0 +1,60 @@
+.about-me {
+    padding: 5rem 10rem;
+    background-color: var(--secondary-bg);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.about-me h1 {
+  font-weight: 700;
+  font-size: 2rem;
+
+}
+.about-me p {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .about-me {
+    padding: 3rem;
+    background-color: var(--secondary-bg);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .about-me h1 {
+    font-weight: 700;
+    font-size: 1.37rem;
+
+  }
+  .about-me p {
+      font-weight: 400;
+      font-size: 1rem;
+  }
+    
+}
+
+@media only screen and (max-width: 480px) {
+  .about-me {
+    padding: 1rem;
+    background-color: var(--secondary-bg);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .about-me h1 {
+    font-weight: 700;
+    font-size: 1.37rem;
+
+  }
+
+  .about-me p {
+      font-weight: 400;
+      font-size: 0.87rem;
+  }
+ 
+}

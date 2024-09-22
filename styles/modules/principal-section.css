@@ -1,0 +1,150 @@
+.principal-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 3rem 10rem;
+    height: 70vh;
+}
+
+.principal-title {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 70%;
+}
+
+.principal-title h1 {
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+
+.principal-title p {
+    font-size: 1.37rem;
+    font-weight: 400;
+    width: 90%;
+}
+
+.principal-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.principal-item {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.principal-item i {
+    transform: rotate(-50deg);
+}
+
+.principal-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 1024px) {
+    .principal-section {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        padding: 3rem;
+        height: auto;
+    }
+    
+    .principal-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        /* gap: 6.5rem; */
+        width: 70%;
+    }
+    
+    .principal-title h1 {
+        font-size: 1.37rem;
+        font-weight: 700;
+    }
+    
+    .principal-title p {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    .principal-menu {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    
+    .principal-item {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        cursor: pointer;
+    }
+    
+    .principal-item i {
+        transform: rotate(-50deg);
+    }
+    
+    .principal-img img {
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .principal-section {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 0.5rem;
+    }
+
+    .principal-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 3rem;
+        width: 95%;
+    }
+    
+    .principal-title h1 {
+        font-size: 1.37rem;
+        font-weight: 700;
+    }
+    
+    .principal-title p {
+        font-size: 0.87rem;
+        font-weight: 400;
+    }
+    
+    .principal-menu {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+    
+    .principal-item {
+        display: flex;
+        flex-direction: row;
+        cursor: pointer;
+        font-size: 0.87rem;
+    }
+    
+    .principal-img img {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+}
